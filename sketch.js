@@ -79,7 +79,7 @@ if(ship.x >=3000){
   drawSprites();
 }
 function spawnAnimals(){
-  if(frameCount%100 == 0){
+  if(frameCount%125 == 0){
   whale = createSprite(0,random(200,400),50,50);
   whale.addImage("whale",whaleimg);
   whale.velocityX = 2;
